@@ -1,24 +1,24 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/GameUI.uss?fileID=7433441132597879392&amp;guid=0836b44a1ad176d4891109a0ca162ba2&amp;type=3#GameUI" />
     <ui:VisualElement name="container" class="container" style="bottom: 10px; height: 245px; width: 1720px; left: 64px;">
-        <ui:VisualElement name="partyContainer" class="partyContainer" style="height: auto; bottom: 20px; opacity: 1; background-color: rgba(200, 54, 193, 0.41); visibility: visible; border-left-color: rgba(255, 255, 255, 0.32); border-right-color: rgba(255, 255, 255, 0.32); border-top-color: rgba(255, 255, 255, 0.32); border-bottom-color: rgba(255, 255, 255, 0.32);">
-            <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px;">
+        <ui:VisualElement name="partyContainer" class="partyContainer" style="height: auto; bottom: 20px; opacity: 1; background-color: rgba(200, 54, 213, 0.71); visibility: visible; border-left-color: rgba(255, 255, 255, 0.32); border-right-color: rgba(255, 255, 255, 0.32); border-top-color: rgba(255, 255, 255, 0.32); border-bottom-color: rgba(255, 255, 255, 0.32);">
+            <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px; border-left-color: rgba(7, 7, 7, 255); border-right-color: rgba(7, 7, 7, 255); border-top-color: rgba(7, 7, 7, 255); border-bottom-color: rgba(7, 7, 7, 255);">
                 <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;project://database/Assets/ExampleAssets/MaggieFace.png?fileID=2800000&amp;guid=5b783b52e502a2a4b8da6378873f8e43&amp;type=3#MaggieFace&apos;);" />
                 <ui:Label text="Maggie" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
-                <uie:ProgressBar name="health" class="health" style="border-left-color: rgba(207, 50, 50, 0.9); border-right-color: rgba(207, 50, 50, 0.9); border-top-color: rgba(207, 50, 50, 0.9); border-bottom-color: rgba(207, 50, 50, 0.9);" />
-                <uie:ProgressBar name="mana" />
+                <uie:ProgressBar name="health" title="HP" class="health" style="background-color: rgb(166, 18, 18); flex-direction: row-reverse; align-items: auto; justify-content: space-around; -unity-background-image-tint-color: rgba(255, 255, 255, 0.99); visibility: visible; -unity-text-outline-color: rgba(0, 0, 0, 0);" />
+                <uie:ProgressBar name="mana" title="MP" style="background-color: rgb(36, 77, 231); flex-direction: row-reverse; justify-content: center;" />
             </ui:VisualElement>
             <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px;">
                 <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;project://database/Assets/ExampleAssets/LisaFace.png?fileID=2800000&amp;guid=174af8290a6b5d24ebdbb017a1bd8ba9&amp;type=3#LisaFace&apos;);" />
-                <ui:Label text="Lisa" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
-                <uie:ProgressBar name="health" class="health" />
-                <uie:ProgressBar name="mana" />
+                <ui:Label text="Lisa" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" style="height: 30px;" />
+                <uie:ProgressBar name="health" title="HP" class="health" style="background-color: rgb(166, 18, 18); flex-direction: row-reverse; justify-content: center;" />
+                <uie:ProgressBar name="mana" title="MP" style="flex-direction: row-reverse; background-color: rgb(36, 77, 231); justify-content: center;" />
             </ui:VisualElement>
             <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px;">
                 <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;project://database/Assets/ExampleAssets/BartFace.png?fileID=2800000&amp;guid=84212d7a417aec04f884a8c73c4ba582&amp;type=3#BartFace&apos;);" />
                 <ui:Label text="Bart" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
-                <uie:ProgressBar name="health" class="health" />
-                <uie:ProgressBar name="mana" />
+                <uie:ProgressBar name="health" title="HP" class="health" style="flex-direction: row-reverse; background-color: rgb(166, 18, 18); justify-content: center;" />
+                <uie:ProgressBar name="mana" title="MP" style="background-color: rgb(36, 77, 231); flex-direction: row-reverse; justify-content: center;" />
             </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>
