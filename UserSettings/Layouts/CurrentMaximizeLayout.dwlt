@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 2344
+  controlID: 3370
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 2345
+  controlID: 3371
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -168,7 +168,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 2329
+  controlID: 3346
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -188,8 +188,8 @@ MonoBehaviour:
     y: 0
     width: 363
     height: 716
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -228,7 +228,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 02fbffff
+      m_ExpandedIDs: 1ca5ffffc8b8ffffaae1ffff88e3ffffd4e6ffff02fbffff30770000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -505,9 +505,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 461.54495, y: 7.2704515, z: 495.60757}
+    m_Target: {x: 617.94, y: 0.66468257, z: 474.98}
     speed: 2
-    m_Value: {x: 461.54495, y: 7.2704515, z: 495.60757}
+    m_Value: {x: 617.94, y: 0.66468257, z: 474.98}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -554,13 +554,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08363726, y: -0.89518017, z: 0.18967818, w: -0.39462176}
+    m_Target: {x: -0.15290396, y: -0.12768877, z: 0.019908223, w: -0.97977895}
     speed: 2
-    m_Value: {x: -0.08363531, y: -0.89515924, z: 0.18967375, w: -0.39461255}
+    m_Value: {x: -0.15290035, y: -0.12768576, z: 0.019907754, w: -0.9797558}
   m_Size:
-    m_Target: 55.849236
+    m_Target: 74.24709
     speed: 2
-    m_Value: 55.849236
+    m_Value: 74.24709
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1140,6 +1140,7 @@ MonoBehaviour:
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: 8711657896477152949, guid: 2f25155f24d89c943849c674855cf875, type: 2}
+    - {fileID: 1107317591598067262, guid: 5be226f3b92f61649bfd51370943b138, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.56249976
       e01: 0
@@ -1157,10 +1158,26 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 2f25155f24d89c943849c674855cf875, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: 5be226f3b92f61649bfd51370943b138, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 8711657896477152949, guid: 2f25155f24d89c943849c674855cf875, type: 2}
+  - m_Target: {fileID: 1107317591598067262, guid: 5be226f3b92f61649bfd51370943b138, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -1242,22 +1259,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\rech_\Documents\rpg-system-ulsan2022-1-secure-version
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: de6a0000
-    m_LastClickedID: 27358
-    m_ExpandedIDs: 00000000de6a000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 155.16794}
+    m_SelectedIDs: 8a6c0000
+    m_LastClickedID: 27786
+    m_ExpandedIDs: 00000000de6a00008a6c00008c6c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1285,7 +1302,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000de6a000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000de6a00008a6c00008c6c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1310,24 +1327,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 44680000
-    m_LastClickedInstanceID: 26692
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 4c730000
+    m_LastClickedInstanceID: 29516
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000020920000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: rpgScene
+      m_OriginalName: rpgScene
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 29516
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
@@ -1337,7 +1354,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 229}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -1388,8 +1405,8 @@ MonoBehaviour:
     y: 0
     width: 453
     height: 939
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -1430,8 +1447,8 @@ MonoBehaviour:
     m_CachedPref: 419
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 26692
-  m_LastVerticalScrollValue: 270
+  m_LastInspectedObjectInstanceID: 29516
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
